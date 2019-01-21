@@ -1,2 +1,2 @@
 # efmviz
-EFM Viusalization
+A MATLAB-based integrative workflow for graphically visualizing EFMs in a semi-automated way. The workflow offers a platform for comprehensive EFM analysis, starting with EFM generation followed by visualization and data mapping. This flexible workflow seamlessly integrates the existing toolboxes COBRA (COnstraint-Based Reconstruction and Analysis Toolbox) or RAVEN (Reconstruction, Analysis and Visualization of Metabolic Networks)with Cytoscape, an open-source network visualization tool. The applicability of the workflow is demonstrated using two use cases with two genome-scale models, (1) iAF1260 (E. coli) and (2) Recon 2.2 (human). Currently, the workflow using COBRA toolbox is available here.
