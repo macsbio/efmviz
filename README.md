@@ -16,4 +16,4 @@ Download the repository and execute 'initWorkflow_\<useCase\>.m'.
 
 These scripts create the 'efmviz/results/\<useCase\>' folder and result files in subfolders corresponding to every step of the workflow.
 
-Once processed, the resulting SBML files can be opened in Cytoscape and manipulated using 'EFMViz_RCy3.R'
+Once processed, the resulting SBML files can be opened in Cytoscape and manipulated using 'EFMViz_RCy3.R' 
