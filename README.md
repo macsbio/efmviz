@@ -3,6 +3,8 @@ A MATLAB-based integrative workflow for graphically visualizing EFMs in a semi-a
 
 This flexible workflow seamlessly integrates the existing toolboxes [COBRA (COnstraint-Based Reconstruction and Analysis Toolbox)](https://github.com/opencobra/cobratoolbox/) or [RAVEN (Reconstruction, Analysis and Visualization of Metabolic Networks)](https://github.com/SysBioChalmers/RAVEN) with [Cytoscape](https://cytoscape.org/), an open-source network visualization tool. Network manipulations in Cytoscape is carried out using the R environment with the  [RCy3](https://github.com/cytoscape/RCy3) library. [TreeEFM](https://academic.oup.com/bioinformatics/article/31/6/897/214785) has been used for EFM generation. Two use cases of the workflow are demonstrated using two genome-scale models, (1) iAF1260 (*E. coli*) and (2) Recon 2.2 (human). Currently, the workflow using COBRA toolbox is available here. 
 
+This workflow is described in the study "An integrative workflow to visualize Elementary Flux Modes in genome-scale metabolic models" (Under preparation)
+
 ## Dependencies and Installation
 Please follow the detailed instructions on the following pages for installation 
 - [COBRA](https://github.com/opencobra/cobratoolbox/)
@@ -17,3 +19,6 @@ Download the repository and execute 'initWorkflow_\<useCase\>.m'.
 These scripts create the 'efmviz/results/\<useCase\>' folder and result files in subfolders corresponding to every step of the workflow.
 
 Once processed, the resulting SBML files can be opened in Cytoscape and manipulated using 'EFMViz_RCy3.R' 
+
+## How to cite
+Will be updated shortly
