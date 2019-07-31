@@ -19,9 +19,9 @@ modelEFM = removeRxns(model, rxnRemoveList);
 % the unused genes in the model do not get removed, so remove mannually
 modelEFM = removeUnusedGenes(modelEFM);
 
-writeCbModel(modelEFM, 'format','sbml', 'fileName', outputFileName);
+% writeCbModel(modelEFM, 'format','sbml', 'fileName', outputFileName);
 
-success=['File ', outputFileName, ' has been created'];
-disp(success);
+% success=['File ', outputFileName, ' has been created'];
+% disp(success);
 end
 

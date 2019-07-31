@@ -3,7 +3,7 @@
 
 [Settings]
   Reaction: 10757
-  Input file: results\useCase2\A_modelPreprocessing\recon2_2_irr_woCof_S.txt
+  Input file: results\useCase2\A_modelPreprocessing\recon2_2_irr_S.txt
   Zero: 1.000000e-006
   Output label: Dglucose-E10000-10757
   Output file: EFM-Dglucose-E10000-10757.txt
@@ -26,9 +26,9 @@
 Running...
 
 [Matrix]
-  File: results\useCase2\A_modelPreprocessing\recon2_2_irr_woCof_S.txt
-  Elements: 26069
-  Components: 5080
+  File: results\useCase2\A_modelPreprocessing\recon2_2_irr_S.txt
+  Elements: 44381
+  Components: 5324
   Reactions: 11567
   Check passed: Yes
 
@@ -38,17 +38,17 @@ Dumping...
 
 [Counters]
 
-  Found EFMs:             55
-  Generated nodes:      3348
+  Found EFMs:             84
+  Generated nodes:      8277
 
 [Timing]
 
-  Total: 3.521000
+  Total: 50.412000
 
 
 Exiting...
   deleting: OK
 
 [CPU timers]
- 5.507959s wall, 3.531250s user + 1.328125s system = 4.859375s CPU (88.2%)
+ 57.485228s wall, 51.421875s user + 2.875000s system = 54.296875s CPU (94.5%)
 
