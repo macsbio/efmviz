@@ -9,7 +9,7 @@ function expressionRxns = selectGeneFromGPR_efmviz(model, gene_names, gene_exp, 
 %   model:          COBRA model struct
 %   gene_names:     gene identifiers corresponding to gene_exp. Names must
 %                   be in the same format as model.genes (column vector)
-%                   (as returned by "findUsedGeneLevels.m")
+%                   (as returned by "findUsedGeneLevels_efmviz.m")
 %   gene_exp:       gene FPKM/expression values, corresponding to names (column vector)
 %                   (as returned by "findUsedGeneLevels.m")
 %   parsedGPR:      GPR matrix as returned by "GPRparser.m"
@@ -19,11 +19,17 @@ function expressionRxns = selectGeneFromGPR_efmviz(model, gene_names, gene_exp, 
 %                   for OR
 %
 % OUTPUTS:
-%   expressionCol:  reaction expression, corresponding to model.rxns.
+%   expressionRxns:  reaction expression, corresponding to model.rxns.
 %                   No gene-expression data and orphan reactions will
 %                   be given a value of -1.
-%
-% AUTHOR: Anne Richelle, May 2017
+%          .rxnSig - significance for each rxn associated with each
+%                     reaction
+%           .rxnExp - expression for each rxn associated with each
+%                     reaction
+% ORIGINAL AUTHOR: Anne Richelle, May 2017
+% Adapted by Chaitra Sarathy to use significance levels along with
+% expression value 
+% Last modified: Chaitra Sarathy, 13 Aug 2019
 
 
 if ~exist('minSum','var')

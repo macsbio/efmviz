@@ -16,12 +16,14 @@ function [expressionRxns, parsedGPR] = mapExpressionToReactions_efmviz(model, ex
 %   minSum:         instead of using min and max, use min for AND and Sum
 %                   for OR (default: false, i.e. use min)
 % OUTPUTS:
-%   expressionRxns:         reaction expression, corresponding to model.rxns.
+%   expressionRxns:         structure describing reaction expression and significance, corresponding to model.rxns.
 %   parsedGPR:              cell matrix containing parsed GPR rule
 %
-% .. Authors:
+% Original Authors:
 %       - Anne Richelle, May 2017 - integration of new extraction methods 
-
+% Adapted by Chaitra Sarathy to use significance levels along with
+% expression value and respective functions in efmviz
+% Last modified: Chaitra Sarathy, 13 Aug 2019
 if ~exist('minSum','var')
     minSum = false;
 end

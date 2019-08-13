@@ -25,8 +25,7 @@ function [gene_id, gene_expr, gene_sig] = findUsedGenesLevels_efmviz(model, expr
 %
 %   gene_expr:           vector of expression values associated to each
 %                        'gened_id'
-%   gene_sig:             vector of significance values associated to each
-%                        'gened_id'
+
 %
 %   
 % Original Authors: - S. Opdam & A. Richelle May 2017

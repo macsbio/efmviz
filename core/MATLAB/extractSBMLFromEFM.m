@@ -1,13 +1,19 @@
-function modelEFM = extractSBMLFromEFM(model, data, efmNum, efmReacNum) 
+function modelEFM = extractSBMLFromEFM(model, data) 
 %This function takes an input array containing reaction indices of an EFM
 %and extracts a model (SBML-non-COBRA) which can be visualised in Cytoscape
 
 % INPUT
 % data - array of reaction IDs after EFM processing
-% efmNum - the index of EFM in the output of TreeEFM
-% efmREacNum - the reaction ID for which the EFMs were generated
 
-outputFileName = strcat(efmReacNum, '_', 'efm', efmNum, '.xml');
+% OUTPUT
+% modelEFM - submodel containing reactions, metabolites and genes in the
+% EFM of interest
+
+% USAGE
+% data = [1 2 3 4 5]; % select first 5 reactions 
+% modelEFM = extractSBMLFromEFM(model, data) ;
+
+% Last modified: Chaitra Sarathy, 13 Aug 2019
 
 %remove reactions other than those in EFM
 rxnRemoveList = model.rxns(setdiff(1:length(model.rxns), data));
