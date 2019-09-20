@@ -14,7 +14,7 @@ Please follow the detailed instructions on the following pages for installation
 
 
 ## How to run
-Will be updated shortly
+Scripts analysis_ecoli.mlx and analysis_recon.mlx contain detailed instructions on the workflow
 
 ## How to cite
 Will be updated shortly
