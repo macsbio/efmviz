@@ -17,4 +17,4 @@ Please follow the detailed instructions on the following pages for installation
 Scripts analysis_ecoli.mlx and analysis_recon.mlx contain detailed instructions on the workflow
 
 ## How to cite
-Will be updated shortly
+Sarathy C, Kutmon M, Lenz M et al. An integrative workflow to visualize Elementary Flux Modes in genome-scale metabolic models [version 1; not peer reviewed]. F1000Research 2019, 8(ISCB Comm J):1573 (poster) (doi: 10.7490/f1000research.1117453.1)
