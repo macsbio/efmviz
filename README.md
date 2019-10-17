@@ -1,5 +1,5 @@
 # efmviz
-A MATLAB-based integrative workflow for graphically visualizing EFMs in a semi-automated way. This workflow offers a platform for comprehensive EFM analysis, starting with EFM generation followed by visualization and data mapping. 
+A MATLAB and R-based integrative workflow for graphically visualizing EFMs in a semi-automated way. This workflow offers a platform for comprehensive EFM analysis, starting with EFM selection followed by visualization and data mapping. 
 
 This flexible workflow seamlessly integrates the existing toolboxes [COBRA (COnstraint-Based Reconstruction and Analysis Toolbox)](https://github.com/opencobra/cobratoolbox/) or [RAVEN (Reconstruction, Analysis and Visualization of Metabolic Networks)](https://github.com/SysBioChalmers/RAVEN) with [Cytoscape](https://cytoscape.org/), an open-source network visualization tool. Network manipulations in Cytoscape is carried out using the R environment with the  [RCy3](https://github.com/cytoscape/RCy3) library. [TreeEFM](https://academic.oup.com/bioinformatics/article/31/6/897/214785) has been used for EFM generation. Two use cases of the workflow are demonstrated using two genome-scale models, (1) iAF1260 (*E. coli*) and (2) Recon 2.2 (human). Currently, the workflow using COBRA toolbox is available here. 
 
@@ -14,7 +14,7 @@ Please follow the detailed instructions on the following pages for installation
 
 
 ## How to run
-Will be updated shortly
+Scripts analysis_ecoli.mlx and analysis_recon.mlx contain detailed instructions on the workflow
 
 ## How to cite
-Will be updated shortly
+Sarathy C, Kutmon M, Lenz M et al. An integrative workflow to visualize Elementary Flux Modes in genome-scale metabolic models [version 1; not peer reviewed]. F1000Research 2019, 8(ISCB Comm J):1573 (poster) (doi: 10.7490/f1000research.1117453.1) https://f1000research.com/posters/8-1573
