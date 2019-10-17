@@ -25,8 +25,11 @@ Please follow the detailed instructions on the following pages for installation
 - the genome-scale metabolic model used for generating EFMs
 - optional data to filter EFMs and to map on the visualized network
 
+## Expected Outcome
+EFMs selected from the MATLAB tutorial are visualized in Cytoscape as a network of genes, reactions and metabolites with gene expression or reaction fluxes mapped respectively on the gene nodes and reactions in the network.
+
 ## Start here
-Run the tutorials. Each tutorial walks you through all the steps in the workflow necessary to reproduce main results from Sarathy et al., (2019) and can also be used for adapting to your requirements.
+Run the tutorial live scripts (tutorial_efmviz_ecoli.mlx and tutorial_efmviz_recon.mlx). Each tutorial walks you through all the steps in the workflow necessary to reproduce main results from Sarathy et al., (2019) and can also be used for adapting to your requirements.
 
 ## How to cite
 Sarathy C, Kutmon M, Lenz M et al. An integrative workflow to visualize Elementary Flux Modes in genome-scale metabolic models [version 1; not peer reviewed]. F1000Research 2019, 8(ISCB Comm J):1573 (poster) (doi: 10.7490/f1000research.1117453.1) https://f1000research.com/posters/8-1573
