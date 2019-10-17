@@ -31,7 +31,7 @@ INPUTS
 EXPECTED OUTCOME
 EFM from E. coli that was selected from the tutorial is visualized as a network of genes, reactions and metabolites with reaction fluxes mapped on the edges in the network.
 
-NOTE: Due to current unavailability of API for cy3sbml, unfortunately, the file import must be done manually through the GUI. Also, due to licensing issues, yFiles layout cannot be applied through the script and must be done in the GUI. We have tried our best to automate the network operations wherever possible. In the current version of cy3sbml, edges do not have an ID, so mapping the flux data on the edges is not straightforward. Therefore, the R script assigns an edge identifier (same as connected reactions) before mapping the data file from C.iv.
+NOTE: Due to current unavailability of API for cy3sbml, unfortunately, the file import must be done manually through the GUI. Also, due to licensing issues, yFiles layout cannot be applied through the script and must be done in the GUI. We have tried our best to automate the network operations wherever possible. 
 
 STEPS (* indicates manual operation in Cytoscape GUI)
 A. File import *
