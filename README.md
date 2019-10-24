@@ -19,7 +19,7 @@ Please follow the detailed instructions on the following pages for installation
 - [COBRA](https://github.com/opencobra/cobratoolbox/)
 - [Cytoscape](https://cytoscape.org/)
 - Cytoscape apps (can be installed from Cytoscape GUI): [cy3sbml](http://apps.cytoscape.org/apps/cy3sbml), [yFiles](https://apps.cytoscape.org/apps/yfileslayoutalgorithms)
-- [R](https://cran.r-project.org/), [RCy3](https://github.com/cytoscape/RCy3)
+- (optional) [R](https://cran.r-project.org/), [RCy3](https://github.com/cytoscape/RCy3)
 
 ## Inputs
 - the text file containing EFMs 
