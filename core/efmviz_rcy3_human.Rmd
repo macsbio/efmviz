@@ -57,7 +57,8 @@ B. Before running this script, declare file locations and file names.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 NOTE: CHANGE THE NAMES OF ONLY THESE VARIABLES
 ```{r}
-usecase2_fileName = "C:/Users/chaitra.sarathy/Dropbox/Chaitra/Analysis/EFM/visualizationOfEFMs/efmviz/core/inputs/data_useCase_2.txt"
+dirname(rstudioapi::getActiveDocumentContext()$path)
+usecase2_fileName = "data_useCase_2.txt"
 styleName = "efmviz_style"
 ```
 C. Install and load necessary R packages
