@@ -15,7 +15,7 @@ This workflow is described in the study "An integrative workflow to visualize El
 
 ## Dependencies and Installation
 Please follow the detailed instructions on the following pages for installation 
-- MATLAB (currently has been tested on R2017b)
+- MATLAB (currently has been tested on R2017b and 2018b)
 - [COBRA](https://github.com/opencobra/cobratoolbox/)
 - [Cytoscape](https://cytoscape.org/)
 - Cytoscape apps (can be installed from Cytoscape GUI): [cy3sbml](http://apps.cytoscape.org/apps/cy3sbml), [yFiles](https://apps.cytoscape.org/apps/yfileslayoutalgorithms)
