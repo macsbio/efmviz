@@ -11,7 +11,7 @@ Efmviz is a MATLAB-based integrative workflow for graphically visualizing Elemen
 ## Example applications
 Two use cases of the workflow are demonstrated using two genome-scale models, (1) iAF1260 (*E. coli*) and (2) Recon 2.2 (human) which are respectively described in the MATLAB tutorials, tutorial_efmviz_ecoli.mlx and tutorial_efmviz_recon.mlx. Currently, the workflow using COBRA toolbox is available here. All the funtions and input files for the use cases are provided under core/inputs
 
-This workflow is described in the study "An integrative workflow to visualize Elementary Flux Modes in genome-scale metabolic models" Sarathy et al., 2019 (Under preparation)
+This workflow is described in the study "An integrative workflow to visualize Elementary Flux Modes in genome-scale metabolic models" Sarathy et al., 2019 (Under preparation) 
 
 ## Dependencies and Installation
 Please follow the detailed instructions on the following pages for installation 
