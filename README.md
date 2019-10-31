@@ -1,5 +1,5 @@
-# About Efmviz
-Efmviz is a MATLAB-based integrative workflow for graphically visualizing Elementary Flux Modes (EFMs) in a semi-automated way. This workflow offers a platform for comprehensive EFM analysis, starting with EFM selection followed by visualization and data mapping. 
+# EFMviz [![DOI](https://zenodo.org/badge/218839057.svg)](https://zenodo.org/badge/latestdoi/218839057)
+EFMviz is a MATLAB-based integrative workflow for graphically visualizing Elementary Flux Modes (EFMs) in a semi-automated way. This workflow offers a platform for comprehensive EFM analysis, starting with EFM selection followed by visualization and data mapping. 
 
 ## Features
 - Visualization of EFMs as a graphical network
