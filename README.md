@@ -5,6 +5,7 @@ EFMviz is a MATLAB-based integrative workflow for graphically visualizing Elemen
 
 ## Features
 - Visualization of EFMs as a graphical network
+- Customizable workflow
 - Applicable on EFMs generated from any tool/method
 - Integrates existing toolboxes [COBRA (COnstraint-Based Reconstruction and Analysis Toolbox)](https://github.com/opencobra/cobratoolbox/) or [RAVEN (Reconstruction, Analysis and Visualization of Metabolic Networks)](https://github.com/SysBioChalmers/RAVEN) with [Cytoscape](https://cytoscape.org/), an open-source network visualization tool
 - Enables mapping omics data (such as gene expression, fluxomics) on the network 
