@@ -1,9 +1,11 @@
-# About Efmviz
-Efmviz is a MATLAB-based integrative workflow for graphically visualizing Elementary Flux Modes (EFMs) in a semi-automated way. This workflow offers a platform for comprehensive EFM analysis, starting with EFM selection followed by visualization and data mapping. 
+<img src="EFMviz_logo.png" width="180" align="right" />
+
+# EFMviz [![DOI](https://zenodo.org/badge/218839057.svg)](https://zenodo.org/badge/latestdoi/218839057) 
+EFMviz is a MATLAB-based integrative workflow for graphically visualizing Elementary Flux Modes (EFMs). This workflow offers a platform for comprehensive EFM analysis, starting with EFM selection followed by visualization and data mapping. 
 
 ## Features
 - Visualization of EFMs as a graphical network
-- Semi-automated and customizable
+- Customizable workflow
 - Applicable on EFMs generated from any tool/method
 - Integrates existing toolboxes [COBRA (COnstraint-Based Reconstruction and Analysis Toolbox)](https://github.com/opencobra/cobratoolbox/) or [RAVEN (Reconstruction, Analysis and Visualization of Metabolic Networks)](https://github.com/SysBioChalmers/RAVEN) with [Cytoscape](https://cytoscape.org/), an open-source network visualization tool
 - Enables mapping omics data (such as gene expression, fluxomics) on the network 
