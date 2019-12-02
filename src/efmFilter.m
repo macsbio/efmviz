@@ -11,7 +11,9 @@ function [filteredEFMs, row] = efmFilter(EFMRxns, roi)
 %
 % OUTPUTS:
 %    filteredEFMs:    matlab array containing subset of EFMs that contain 'roi'
-%    row:
+%
+% OPTIONAL OUTPUTS:
+%    row:             indices of EFMs that were filtered
 %
 % EXAMPLE:
 %     filteredEFMs = filterEFMs(efmData, 729); % 729 is the ID for acetate release reaction in the iAF1260 model

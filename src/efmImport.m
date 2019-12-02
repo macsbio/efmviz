@@ -13,10 +13,14 @@ function [EFMRxns, EFMFluxes] = efmImport(EFMfileLocation, EFMFileName, EFMFluxf
 %    EFMFluxFileName:        name of the file containing relative fluxes of EFMs <name.txt>
 %
 % OUTPUTS:
-%    EFMRxns:    matlab array containing reactions in EFMs. Each row corresponds to an EFM and contains indices of reactions active in the EFM
+%    EFMRxns:    matlab array containing reactions in EFMs. 
+%                Each row corresponds to an EFM and contains indices of reactions active in the EFM
 %
 % OPTIONAL OUTPUTS:
-%    EFMFluxes:    
+%    EFMFluxes:    matlab array containing reaction fluxes in EFMs. 
+%                  rows = EFMs and columns = reactions. Each entry contains
+%                  (relative) fluxes of reactions active in that EFM, zeros
+%                  otherwise
 %
 % EXAMPLE:
 %    EFMRxns = importEFMs('C;/Analysis/', 'testEFMs.txt'); 

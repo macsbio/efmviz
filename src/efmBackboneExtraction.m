@@ -2,20 +2,20 @@ function [selectedRxns,  rxnDistribution] = efmBackboneExtraction(EFMRxns, perce
 % This function extracts all the reactions present in a certain percentage of EFMs
 %
 % USAGE:
-%    [selectedRxns,  rxnDistribution] = extractEFMConnection(EFMRxns, percentage)
+%    [selectedRxns,  rxnDistribution] = efmBackboneExtraction(EFMRxns, percentage)
 %
 % INPUTS:
 %    efmData:       matlab array containing reactions in EFMs (each row is an EFM and every entry indicates the reaction IDs in the EFM) 
 %    percentage:    a number indicating the cut off percentage. The reactions which are present in >= 'percentage' number of EFMs will be returned as output. ex. '80'
 % 
 % OUTPUTS:
-%    selectedRxns:      table of reactions which are present in >= 'percentage' number of EFMs. 
-%                       The columns in the table are:
-%                           rxnID - reaction ID
-%                           numEFMOccurrence - the number of EFMs the reaction occurs in 
-%                           efmOccPercentage - percentage of EFMs the reaction occurs in. Calculated as: efmOccPercentage = numEFMOccurrence/<totalNumberOfEFMs> * 100
-%   rxnDistribution:    table of all reactions which are present in the input set of EFMs. 
-%                       The columns in the table are:
+%    selectedRxns:       table of reactions which are present in >= 'percentage' number of EFMs. 
+%                        The columns in the table are:
+%                            rxnID - reaction ID
+%                            numEFMOccurrence - the number of EFMs the reaction occurs in 
+%                            efmOccPercentage - percentage of EFMs the reaction occurs in. Calculated as: efmOccPercentage = numEFMOccurrence/<totalNumberOfEFMs> * 100
+%    rxnDistribution:    table of all reactions which are present in the input set of EFMs. 
+%                        The columns in the table are:
 %                  `         rxnID - reaction ID
 %                            numEFMOccurrence - the number of EFMs the reaction occurs in 
 %                            efmOccPercentage - percentage of EFMs the reaction occurs in. Calculated as: efmOccPercentage = numEFMOccurrence/<totalNumberOfEFMs> * 100
