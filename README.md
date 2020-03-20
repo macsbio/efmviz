@@ -34,7 +34,7 @@ EFMs selected from the MATLAB tutorial are visualized in Cytoscape as a network 
 ## Start here
 - Download this repository and unzip the folder 
 - Open MATLAB with <your-computer-location>/efmviz/core as the working directory
-- Run the live scripts (tutorial_efmviz_ecoli.mlx and tutorial_efmviz_recon.mlx) section by section. Each tutorial walks you through all the steps in the workflow necessary to reproduce main results from Sarathy et al., (2019) and can also be adapted to visualize EFMs from your own analysis.
+- Run the live scripts (tutorial_efmviz_ecoli.mlx and tutorial_efmviz_recon.mlx) section by section. Each tutorial walks you through all the steps in the workflow necessary to reproduce the main results from Sarathy et al., (2020, see below for the paper) and can also be adapted to visualize EFMs from your own analysis.
 
 ## How to cite
 Sarathy, C.; Kutmon, M.; Lenz, M.; Adriaens, M.E.; Evelo, C.T.; Arts, I.C. EFMviz: A COBRA Toolbox extension to visualize Elementary Flux Modes in Genome-Scale Metabolic Models. Metabolites 2020, 10, 66. 
