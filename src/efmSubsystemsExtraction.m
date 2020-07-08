@@ -2,12 +2,11 @@ function [subsysSummary, uniqSubsys, countSubPerEFM] = efmSubsystemsExtraction(m
 % This function finds all unique subsystems in the input set of EFMs
 %
 % USAGE:
-%    [subsysSummary, uniqSubsys_allEFMs, countSubPerEFM] = getEFMSubsystems(model, EFMRxns);
+%    [subsysSummary, uniqSubsys, countSubPerEFM] = efmSubsystemsExtraction(model, EFMRxns);
 %    
 % INPUTS:
 %    model:      COBRA model that was used for EFM calculation
-%    EFMRxns:    matlab array containing reactions in EFMs (as returned by the function importEFMs)
-%    EFMIndices:
+%    EFMRxns:    matlab array containing reactions in EFMs (as returned by the function efmImport)
 %
 % OUTPUTS:
 %    subsysSummary:    
