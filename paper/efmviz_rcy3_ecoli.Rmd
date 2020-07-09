@@ -57,7 +57,8 @@ B. Before running this script, declare file locations and file names.
 NOTE: CHANGE THE NAMES OF ONLY THESE VARIABLES
 ```{r}
 dirname(rstudioapi::getActiveDocumentContext()$path)
-usecase1_fileName = "ecolidataForMapping_EFM_885.txt"
+workDir = dirname(rstudioapi::getActiveDocumentContext()$path)
+usecase1_fileName = paste(workDir, "/results/ecolidataForMapping_EFM_18.txt", sep="")
 styleName = "efmviz_style"
 ```
 C. Install and load necessary R packages
@@ -85,12 +86,12 @@ D. Perform network operations and data mapping
 
 i. Import and apply the provided style file 
 ```{r}
-setVisualStyle(style.name = styleName)
+# setVisualStyle(style.name = styleName)
 ```
 ii. Color reaction nodes as green
 ```{r}
 clearSelection()
-setNodeColorBypass(node.names = getSelectedNodes(selectNodes(nodes = "reaction", by.col = "sbml type")), new.colors = "#00FF00" )
+# setNodeColorBypass(node.names = getSelectedNodes(selectNodes(nodes = "reaction", by.col = "sbml type")), new.colors = "#00FF00" )
 ```
 iii. Get node table of the network to modify node display labels 
 ```{r}
@@ -119,13 +120,13 @@ updateStyleMapping(style.name = styleName, mapVisualProperty('node label', 'node
 iv.  Hide genes and GPR relation nodes
 
 ```{r}
-clearSelection()
-hideNodes(node.names = getSelectedNodes(selectNodes(nodes = "fbc_geneProduct", by.col = "sbml type")))
-clearSelection()
-hideNodes(node.names = getSelectedNodes(selectNodes(nodes = "fbc_and", by.col = "sbml type")))
-clearSelection()
-hideNodes(node.names = getSelectedNodes(selectNodes(nodes = "fbc_or", by.col = "sbml type")))
-clearSelection()
+# clearSelection()
+# hideNodes(node.names = getSelectedNodes(selectNodes(nodes = "fbc_geneProduct", by.col = "sbml type")))
+# clearSelection()
+# hideNodes(node.names = getSelectedNodes(selectNodes(nodes = "fbc_and", by.col = "sbml type")))
+# clearSelection()
+# hideNodes(node.names = getSelectedNodes(selectNodes(nodes = "fbc_or", by.col = "sbml type")))
+# clearSelection()
 ```
 
 v. Map reaction fluxes
@@ -145,7 +146,8 @@ edgeTab$edgeID = rownames(edgeTab)
 edgeTab[,"edgeName"] = character()
 
 # Get all reaction nodes
-rxnNodes = getSelectedNodes(selectNodes(nodes = "reaction", by.col = "sbml type"))
+aa = selectNodes(nodes = "reaction", by.col = "sbml type")$nodes
+rxnNodes = getSelectedNodes()
 clearSelection()
 
 # for each reaction node, get associated edges
